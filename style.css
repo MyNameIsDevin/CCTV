@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Medium.ttf);
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+    body {
+        background-color:darkblue;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.779);
+}
+
+.img-1 {
+    width: 4rem;
+}
+
+.img-1:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.home {
+    transition: all .1s linear;
+    color: black    ;
+}
+
+.home:hover {
+    background-color: rgba(234, 255, 0, 0.523);
+    color: black;
+    border-radius: 5px;
+}
+
+.div-judul {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 30px;
+    background-color: rgba(14, 14, 14, 0.944);
+    transition: all .2s linear;
+}
+
+.div-judul:hover {
+    background-color:rgba(20, 20, 20, 0.944);
+}
+
+.judul {
+    font-size: 30px;
+    padding-top: 27px;
+    color: white;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .3s linear;
+}
+
+.judul:hover {
+    border-bottom: 3px solid white;
+}
+
+.container-sb-1 {
+    padding-top: 50px;
+}
+
+.container-sb {
+    background-color:rgba(14, 14, 14, 0.677);
+    padding: 20px;
+    margin-right: 3px;
+    border: 1px solid rgba(132, 132, 132, 0.386);
+}
+
+.sb {
+    background-color: rgba(0, 0, 0, 0.711);
+    border-style: none;
+    color: white;
+}
+
+.button-search {
+    border-style: none;
+    color: white;
+    background-color: rgba(35, 35, 35, 0.665);
+}
+
+.button-search:hover {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+body {
+    background-image: url(asset/b2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.search-box {
+    margin-left: 40px;
+}
+
+.a-1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.a-2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 192, 54, 0.256);
+    padding: 5px 16px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: all .2s linear;
+}
+
+.a-2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 255, 72, 0.699);
+    border-radius: 24px;
+}
+
+.a-3 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 57, 2, 0.324);
+    padding: 5px 27px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: all .2s linear;
+}
+
+.a-3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 57, 2, 0.797);
+    border-radius: 24px;
+}
+
+.a-4 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(115, 0, 255, 0.256);
+    padding: 5px 33px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: all .2s linear;
+}
+
+.a-4:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(115, 0, 255, 0.764);
+    border-radius: 24px;
+}
+
+.body-2-card {
+    display: flex;
+    justify-content: center;
+}
+
+.body-2-card-1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.container-card {
+    background-color: rgba(14, 14, 14, 0.677);
+    border: 2px solid white;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.602);
+    border-radius: 3px;
+    transition: all .2s linear;
+}
+
+.img2 {
+    padding-top: 10px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 3px;
+    box-shadow: 2px black;
+}
+
+.body-2 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    justify-content: center;
+    background-color: rgba(14, 14, 14, 0.858);
+    border-bottom: 8px solid rgb(18, 18, 18);
+}
+
+.body-2-all {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.body-3-1 {
+    background-color: rgba(71, 71, 71, 0.543);
+    display: flex;
+    justify-content: center;
+    transition: all .2s linear;
+}
+
+.body-3-1:hover {
+    background-color: rgba(240, 248, 255, 0.721);
+}
+
+.body-3-2 {
+    color: white;
+    padding-top: 13px;
+}
+
+.body-3-2:hover {
+    color: rgb(0, 0, 0);
+}
+
+.svg-icon {
+    height: 35px;
+    padding-top: 13px;
+    transform: translateX(7px);
+}
